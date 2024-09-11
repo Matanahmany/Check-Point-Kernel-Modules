@@ -68,5 +68,5 @@ module_init(my_module_init);
 module_exit(my_module_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("team2");
+MODULE_AUTHOR("Matan");
 MODULE_DESCRIPTION("Kernel module for blocking a specific IPv4 address");
