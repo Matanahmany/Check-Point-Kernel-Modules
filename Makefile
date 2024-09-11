@@ -1,9 +1,11 @@
-# Makefile for building the our_kernel module
+# Makefile for building kernel modules
 
-# Name of the module (without .c)
+# Name of the modules (without .c)
+obj-m += netfilter_module.o
 obj-m += our_kernel.o
+obj-m += simple_module.o
 
-# Default rule to build the module
+# Default rule to build the modules
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
