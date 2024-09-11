@@ -98,5 +98,5 @@ module_exit(my_module_exit);
 
 // Module metadata
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Team2");
+MODULE_AUTHOR("Matan");
 MODULE_DESCRIPTION("Kernel Module with Netfilter Hooks and Timer");
