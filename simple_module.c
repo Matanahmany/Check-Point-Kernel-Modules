@@ -21,5 +21,5 @@ module_exit(simple_exit);
 
 // Module Information
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Team2");
+MODULE_AUTHOR("Matan");
 MODULE_DESCRIPTION("A Simple Linux Kernel Module");
